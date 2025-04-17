@@ -23,7 +23,7 @@ void input() {
     cout << "\nInputkan isi element array";
     cout << "\n========================" << endl;
 
-    for (int i=0;i<n;i++)
+    for (int i=0;i < n;i++)
     {
        cout << "array index ke- " << i << " : ";
        cin >> arr[i];
@@ -69,6 +69,13 @@ void mergesort(int low,int high)
     {
         B[k] = arr[j];
         j++;
+        k = k + 1;
+    }
+
+    while (i <= mid)
+    {
+        B[k] = arr[i];
+        i++;
         k++;
     }
 

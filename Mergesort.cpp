@@ -46,5 +46,10 @@ void mergesort(int low,int high)
     mergesort(low, mid); // step 3a
     mergesort(mid + 1, high); // step 3b
 
-    
+    // step 4
+    int i = low; // step 4a
+    int j = mid + 1; // step 4b
+    int k = low; // srep 4c
+
+    while (i <= mid && j <= high) // step 4d
 }

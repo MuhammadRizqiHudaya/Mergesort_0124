@@ -38,4 +38,6 @@ void mergesort(int low,int high)
     {
         return; // step 1 a
     }
+
+    int mid = (low + high) // step 2
 }
